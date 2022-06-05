@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+#   service_Postgre:
+#     container_name: postgre_container_name
+#     image: postgres
+#     ports:
+#       - 5432:5432
+#     environment:
+#       - POSTGRES_DB=test_db
+#       - POSTGRES_USER=beratzmen
+#       - POSTGRES_PASSWORD=123456
+#       - PGDATA=/var/lib/postgresql/data/pgdata
+#     volumes:
+#       - postgre_volume:/var/lib/postgresql/data/pgdata
+#   service_Portainer:
+#     container_name: portainer_container_name
+#     image: portainer/portainer-ce
+#     ports:
+#       - 9000:9000
+#     volumes:
+#       - /var/run/docker.sock:/var/run/docker.sock
+#       - portainer_volume:/data
+# volumes:
+#   postgre_volume:
+#   portainer_volume:

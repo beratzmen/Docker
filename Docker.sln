@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mvc", "Mvc\Mvc.csproj", "{BDD09AA2-7499-4B69-96C2-0EDB372BD2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{25336A82-5B01-4C3D-9B4B-411553356DCB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D6AA070B-BEC3-4DE7-9AED-CF3518B9A7F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD09AA2-7499-4B69-96C2-0EDB372BD2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD09AA2-7499-4B69-96C2-0EDB372BD2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD09AA2-7499-4B69-96C2-0EDB372BD2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD09AA2-7499-4B69-96C2-0EDB372BD2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25336A82-5B01-4C3D-9B4B-411553356DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25336A82-5B01-4C3D-9B4B-411553356DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25336A82-5B01-4C3D-9B4B-411553356DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25336A82-5B01-4C3D-9B4B-411553356DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AA070B-BEC3-4DE7-9AED-CF3518B9A7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AA070B-BEC3-4DE7-9AED-CF3518B9A7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AA070B-BEC3-4DE7-9AED-CF3518B9A7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AA070B-BEC3-4DE7-9AED-CF3518B9A7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FB054BA-83A5-4835-A6D2-30433C0D221D}
+	EndGlobalSection
+EndGlobal

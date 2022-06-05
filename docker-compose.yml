@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  console:
+    image: ${DOCKER_REGISTRY-}console_image_name
+    container_name: console_container_name
+    build:
+      context: ./Console/
+      dockerfile: Dockerfile
+  mvc:
+    image: ${DOCKER_REGISTRY-}mvc_image_name
+    container_name: mvc_container_name
+    build:
+      context: ./Mvc/
+      dockerfile: Dockerfile
+    ports:
+      - 8080:80
+      - 9090:80
